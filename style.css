@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -43,4 +43,37 @@ section {
     font-weight: 600;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 70px gray;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+#full-stack-developer {
+    border-left: 7px solid red;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
 }
